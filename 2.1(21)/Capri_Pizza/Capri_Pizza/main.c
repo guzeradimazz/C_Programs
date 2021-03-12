@@ -60,7 +60,6 @@ int main(int argc, const char * argv[]) {
             printf("Ошибка!\nВывести стоимость пицц: #1\nРасчет прибыли за интервал: #2\nИнформация о программе: #3\nКоличество посетителей: #4\nРасчет ингридиентов: #5\nВыход из программы: #6\n>");
             scanf("%d\n>",&action);
         }
-        
         switch (action) {
             case 1:
                 Price(standart_pizza, veg_pizza);
@@ -82,5 +81,4 @@ int main(int argc, const char * argv[]) {
                 return 0;
         }
     }
-    return 0;
 }
